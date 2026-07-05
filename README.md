@@ -9,7 +9,7 @@ Horizon Systems offers you quick access to weather radar data from various Europ
 * Native **Qt6/C++** desktop application
 * Native (non-web) interactive slippy map
 * Support for multiple European weather services:
-  * 🇩🇪 Deutscher Wetterdienst (DWD)
+  *  Deutscher Wetterdienst (DWD)
   *  Meteo-France
   * MeteoSwiss (via the EUMETNET ORD API)
   * Finnish Meteorological Institute (FMI) via its public AWS S3 bucket
