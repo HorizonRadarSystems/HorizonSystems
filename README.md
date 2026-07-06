@@ -4,6 +4,16 @@ A desktop-based weather radar viewing application using Qt6/C++ for various Euro
 
 Horizon Systems offers you quick access to weather radar data from various European weather services without having to use any web technology integration. This allows you to view the data with a native slippy map, radar sources support, independent split rendering, and support for custom ODIM_H5 compatible radar servers.
 
+# Requirements
+- CPU: Dual-core 64-bit processor (Intel Core i3, AMD Ryzen 3, or equivalent)
+- GPU: Any GPU capable of running a modern desktop environment (dedicated GPU not required)
+- RAM: 4GB or greater
+- Storage: 200 MB free space
+- Internet: Wi-Fi/Ethernet (required for map tiles and radar data)
+### Supported Platforms
+- Linux (primary development platform)
+- macOS (should build with Qt 6 and Homebrew-installed HDF5)
+
 # How-to
 Install:
 
