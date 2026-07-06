@@ -4,6 +4,22 @@ A desktop-based weather radar viewing application using Qt6/C++ for various Euro
 
 Horizon Systems offers you quick access to weather radar data from various European weather services without having to use any web technology integration. This allows you to view the data with a native slippy map, radar sources support, independent split rendering, and support for custom ODIM_H5 compatible radar servers.
 
+# How-to
+Install:
+
+sudo apt update 
+
+sudo apt-get install -y qt6-base-dev libhdf5-dev cmake build-essential
+
+git clone https://github.com/HorizonRadarSystems/HorizonSystems/
+
+mkdir build && cd build
+
+cmake .. -DCMAKE_BUILD_TYPE=Release
+
+make -j$(nproc)
+
+./Horizon Systems
 # Features
 
 * Native **Qt6/C++** desktop application
